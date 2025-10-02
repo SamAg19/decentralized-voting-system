@@ -150,36 +150,3 @@ curl -X POST http://localhost:3000/api/vote \
 curl http://localhost:3000/api/winner
 ```
 
-## Running Tests
-
-### Hardhat Tests
-```bash
-# From project root
-npx hardhat test
-```
-```
-
-## Project Structure
-
-```
-voting-hardhat/
-├── contracts/
-│   ├── Voting.sol              # Main voting contract
-│   └── Voting.t.sol            # Solidity tests
-├── scripts/
-│   └── deploy-voting.ts        # Deployment script
-├── test/
-│   └── Voting.ts               # TypeScript tests
-├── backend/
-│   ├── src/
-│   │   ├── config/             # Blockchain configuration
-│   │   ├── middleware/         # Error handling
-│   │   ├── routes/             # API endpoints
-│   │   └── server.ts           # Express server
-│   ├── package.json
-│   └── README.md
-├── deployment.json             # Deployed contract address
-├── hardhat.config.ts
-└── VOTING_CONTRACT_GUIDE.md    # Contract documentation
-```
-
