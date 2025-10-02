@@ -16,9 +16,15 @@ This guide walks you through setting up and running the complete Voting decentra
 
 ## Quick Start
 
+Open a terminal and run 
+
+```bash
+npm i
+```
+
 ### 1. Start Hardhat Local Network
 
-Open a terminal and run:
+Run in the terminal:
 
 ```bash
 npx hardhat node
@@ -57,6 +63,7 @@ Contract address saved to deployment.json
 
 ```bash
 cd backend
+npm i
 cp .env.example .env
 ```
 
