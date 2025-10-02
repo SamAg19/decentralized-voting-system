@@ -5,7 +5,7 @@ This guide walks you through setting up and running the complete Voting decentra
 ## Project Overview
 
 - **Smart Contract**: Solidity voting contract with OpenZeppelin's Ownable
-- **Testing**: Comprehensive tests in both TypeScript (Hardhat) and Solidity (Forge)
+- **Testing**: Comprehensive tests in Solidity 
 - **Deployment**: Automated deployment scripts with address persistence
 - **Backend API**: Node.js/Express REST API for contract interaction
 
@@ -45,12 +45,12 @@ Starting Voting contract deployment...
 Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 Account balance: 10000.0 ETH
 
-✅ Voting contract deployed!
+Voting contract deployed!
 Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 Owner Address: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 Network: localhost
 
-📄 Contract address saved to deployment.json
+Contract address saved to deployment.json
 ```
 
 ### 3. Configure Backend Environment
@@ -76,8 +76,8 @@ npm run dev
 
 **Expected output:**
 ```
-🚀 Voting API server running on port 3000
-📡 Health check: http://localhost:3000/health
+Voting API server running on port 3000
+Health check: http://localhost:3000/health
 
 Available endpoints:
   POST   http://localhost:3000/api/candidates
