@@ -27,8 +27,8 @@ contract Voting is Ownable {
     mapping(address => bool) public hasVoted;
 
     // Events
-    event CandidateAdded(uint indexed candidateIndex, string name);
-    event VoteCast(address indexed voter, uint indexed candidateIndex);
+    event CandidateAdded(uint256 candidateIndex, string name);
+    event VoteCast(address voter, uint256 candidateIndex);
 
     /**
      * @dev Constructor sets the deployer as the owner
